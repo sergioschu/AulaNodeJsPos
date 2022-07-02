@@ -6,6 +6,10 @@
             "request": "launch",
             "name": "Launch Program",
             "program": "${workspaceFolder}\\server.js",
+            "env" : {
+                "PORT": 3000,
+                "MONGODB_URI": "mongodb://localhost:27017/aula"
+            }
         }
     ]
 }
